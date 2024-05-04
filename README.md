@@ -118,5 +118,29 @@ class Codechef
 	}
 }
 
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+ Problem--> Chef in his Office
+
+ import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		while(T-->0){
+		     int X = sc.nextInt(); // work hours from monday to thursday
+		     int Y = sc.nextInt(); // work hours of only friday
+		     int Total = 4*X + Y;
+		     System.out.println(Total);
+		}
+
+	}
+}
 
 
