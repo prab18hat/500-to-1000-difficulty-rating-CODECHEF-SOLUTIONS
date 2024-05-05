@@ -143,4 +143,30 @@ class Codechef
 	}
 }
 
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+Problem--> MAHASENA
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner battle = new Scanner(System.in);
+		int N = battle.nextInt();   // N is the number of Soldiers
+		int  count = 0;
+		for(int i = 1; i <= N; i++){
+		    int A = battle.nextInt();     // A is the number of weapons
+		    if(A % 2 == 0){   // checking even condition 
+		        count++;
+		    }
+		}
+		 System.out.println(count>N-count ? "Ready for Battle" : "NOT READY");
+
+	}
+}
 
