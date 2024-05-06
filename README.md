@@ -170,3 +170,28 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> CRED COINS 
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner Cred = new Scanner(System.in);
+		int T = Cred.nextInt();
+		while(T-->0){
+		    int X = Cred.nextInt();   // number of cred coins
+		    int Y = Cred.nextInt();    // number of bills
+		    int Total = (X*Y) / 100;
+		    System.out.println(Total);
+		}
+
+	}
+}
+
+
