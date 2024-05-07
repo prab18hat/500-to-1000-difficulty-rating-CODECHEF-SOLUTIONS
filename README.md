@@ -194,4 +194,33 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Water Filling
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner water = new Scanner(System.in);
+		int T = water.nextInt();
+		while(T-->0){   // no of test cases
+		    int B1 = water.nextInt(); // bottle 1 status 
+		    int B2 = water.nextInt();  // bottle 2 status 
+		    int B3 = water.nextInt();  // bottle 3 status 
+		    if(B1+B2+B3 <= 1){        // logic for given condition
+		        System.out.println("Water filling Time");
+		    }
+		    else{
+		        System.out.println("Not now");
+		    }
+		}
+
+	}
+}
+
 
