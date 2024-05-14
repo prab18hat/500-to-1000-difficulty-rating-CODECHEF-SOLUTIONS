@@ -283,4 +283,35 @@ class Codechef
 
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chefland Games
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    	Scanner game = new Scanner(System.in);
+		// your code goes here
+		int T = game.nextInt();
+		
+		while(T-->0){
+		     int R1 = game.nextInt(); // Refree's deciesion R1
+		     int R2 = game.nextInt(); // Refree's deciesion R2
+		     int R3 = game.nextInt(); // Refree's deciesion R3
+		     int R4 = game.nextInt(); // Refree's deciesion R4
+		     
+		     if(R1==0 && R2==0 && R3==0 && R4==0){           // LOGIC(if all decision will be equal to 0 then it should print IN )
+		         System.out.println("IN");
+		     }
+		     else{
+		          System.out.println("OUT");
+		     }
+		}
+
+	}
+}
 
