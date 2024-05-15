@@ -315,3 +315,31 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Expert Setter
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        	Scanner expert = new Scanner(System.in);
+		// your code goes here
+		int T = expert.nextInt();
+		
+		while(T-->0){
+		int X = expert.nextInt(); // The number of problem submitted
+		int Y = expert.nextInt(); // the number of approved preoblem
+		if(2*Y>=X){
+		    System.out.println("YES");
+		}
+		else{
+		     System.out.println("no");
+		}
+}
+	}
+}
+
