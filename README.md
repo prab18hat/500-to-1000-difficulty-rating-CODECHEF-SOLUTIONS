@@ -343,3 +343,36 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chef and NextGen
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		
+        	Scanner nextgen = new Scanner(System.in);
+		// your code goes here
+		int T = nextgen.nextInt();
+		
+		while(T-->0){
+		int A = nextgen.nextInt();  // power in unit 
+		int B = nextgen.nextInt();  // years 
+		int X = nextgen.nextInt();  // helium in grams
+		int Y = nextgen.nextInt();  // Y uint power by 1 gram helium
+		
+		if(A*B <= X*Y){
+		  System.out.println("Yes");
+		}
+		else{
+		   System.out.println("no");
+		}
+		}
+
+	}
+}
+
