@@ -376,3 +376,31 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Sugarcane Juice Business
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		
+       Scanner profit = new Scanner(System.in);
+		// your code goes here
+		int T = profit.nextInt();
+		
+		while(T-->0){
+         int N = profit.nextInt();
+         int t = N*50;  // total sell 
+         int invest = (t*20)/100 + (t*20)/100 + (t*30)/100; // LOGIC 
+         int P  = t-invest;  // profit
+         System.out.println(P);
+         
+		}
+	}
+}
+
+
