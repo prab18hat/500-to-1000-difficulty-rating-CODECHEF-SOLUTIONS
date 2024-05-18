@@ -403,4 +403,28 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Count the Notebooks
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		 Scanner note = new Scanner(System.in);
+		int T = note.nextInt();
+		
+		while(T-->0){
+            
+        int N = note.nextInt();     // weight of pulp 
+        int pages = N*1000;         // total pages from pulp
+        int notebook = pages/100;   // total notebooks made from pages
+        System.out.println(notebook);   
+	}
+	}
+}
 
