@@ -428,3 +428,35 @@ class Codechef
 	}
 }
 
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chef and Candies
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			 Scanner candy = new Scanner(System.in);
+		     int T = candy.nextInt();
+		
+	     	while(T-->0){
+	     	int N = candy.nextInt();  // the number of children
+	        int X = candy.nextInt();  // number of already has candies
+	     	     
+             if(N>=X){
+		        if((N-X)%4==0)
+		        System.out.println((N-X)/4);
+		        else
+		        System.out.println((N-X)/4+1);
+		    }
+		    else
+		    System.out.println("0");
+		}
+	}
+}
+
