@@ -460,3 +460,37 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Car or Bike
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		 Scanner home = new Scanner(System.in);
+		     int T = home.nextInt();
+		   	while(T-->0){
+	     	 int X = home.nextInt();    // time taken by bike 
+	     	 int Y = home.nextInt();    // time etaken by car 
+	     if(X>Y){
+	         System.out.println("car");
+	     }	 
+	     else if(Y>X){
+	         System.out.println("bike");
+	     }
+	     else{
+	         System.out.println("same");
+	     }
+	     	 
+	     	 
+	     	 
+	   	}
+	}
+}
+
+
