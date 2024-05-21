@@ -486,11 +486,40 @@ class Codechef
 	     else{
 	         System.out.println("same");
 	     }
-	     	 
-	     	 
-	     	 
-	   	}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Is the Score Consistent
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+
+		 Scanner score = new Scanner(System.in);
+		     int T = score.nextInt();
+		   	while(T-->0){
+		   int A = score.nextInt();	   // initial  GOAL score by TEAM A
+		   int B = score.nextInt();  // initial  GOAL score by TEAM B
+		   int C = score.nextInt();  // final goals score by team A
+		   int D = score.nextInt(); // final goals score by team B
+		   
+		   if(A<=C && B<=D){
+		       System.out.println("POSSIBLE");
+		   }
+		  else{
+		      System.out.println("IMPOSSIBLE");
+		  } 	    
+		   	    
+		   	}
 	}
 }
+
+	     	 
+	     	 
 
 
