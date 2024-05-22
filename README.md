@@ -547,6 +547,42 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Monopoly
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner profit = new Scanner(System.in);
+		int T = profit.nextInt();
+		while(T-->0){
+		int P = profit.nextInt();  
+		int Q= profit.nextInt();
+		int R = profit.nextInt();
+		int S = profit.nextInt();
+	
+		
+		if(P>Q+R+S || Q>P+R+S || S>P+Q+R || R>P+Q+S ){
+		    System.out.println("yes");
+		}
+		else{
+		    System.out.println("NO");
+		}
+		
+		
+		
+		
+		}
+
+	}
+}
+
 	     	 
 
 
