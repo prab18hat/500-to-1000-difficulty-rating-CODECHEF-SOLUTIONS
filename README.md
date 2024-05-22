@@ -519,7 +519,34 @@ class Codechef
 	}
 }
 
-	     	 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> The Three Topics 
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		 Scanner topic = new Scanner(System.in);
+		   	 int A = topic.nextInt();    //  topic prepared by chef
+		   	 int B = topic.nextInt();    // topic  prepared by chef
+		   	 int C = topic.nextInt();    // topic  prepared by chef
+		   	 int X = topic.nextInt();   // topic given to him in the contetst
+		   	 
+		   	 if(X==A || X==B ||  X==C){
+		   	     System.out.println("YES");
+		   	 }
+		   	 else{
+		   	      System.out.println("NO");
+		   	 }
+    	
+	}
+}
+
 	     	 
 
 
