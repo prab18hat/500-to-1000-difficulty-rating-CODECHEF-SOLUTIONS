@@ -611,6 +611,36 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Air Conditioner Temperature
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner ac = new Scanner(System.in);
+		int T = ac.nextInt();
+		while(T-- >0) {
+		int A = ac.nextInt();   // Temp. want Alice
+		int B = ac.nextInt();   // Temp. want Bob
+		int C = ac.nextInt();	// Temp. want Charlie
+		if(A<=B && C<=B){
+		    System.out.println("Yes");
+		}
+		else{
+		     System.out.println("no");
+		}
+		      
+		      
+		}
+
+	}
+}
 
 	     	 
 
