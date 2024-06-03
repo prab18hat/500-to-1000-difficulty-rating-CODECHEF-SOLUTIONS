@@ -1,4 +1,4 @@
-# 500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS
+![image](https://github.com/prab18hat/500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS/assets/125785780/86a06739-4f6a-40bb-aa9a-bf11648143b4)# 500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS
 Here all the CodeChef Solutions are listed under 500 to 1000 difficulty rating.
 <-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   Problem---> Greater Average
@@ -642,6 +642,304 @@ class Codechef
 	}
 }
 
-	     	 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Nearest Exit
 
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
 
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner exit = new Scanner(System.in);
+		int T  = exit.nextInt();
+		while(T-->0){
+		int X = exit.nextInt(); // seat number 
+		if(X<=50){
+		    System.out.println("Left");
+		    
+		}
+		else{
+		    System.out.println("Right");
+		}
+		    
+		}
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Reverse The Number
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner rev = new Scanner(System.in);
+		int T  = rev.nextInt();
+		while(T-->0){
+		
+StringBuilder str = new StringBuilder(rev.next());
+            System.out.println(Integer.parseInt(str.reverse().toString()));
+
+		    
+		    
+		}
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Sasta Shark Tank
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goe
+		Scanner dv = new Scanner(System.in);
+		int T = dv.nextInt();
+		while(T-->0){
+     	int A = dv.nextInt();
+     	int B = dv.nextInt();
+     	if(10*A>5*B){
+     	    System.out.println("first");
+     	}
+     	if(5*B>10*A){
+     	    System.out.println("second");
+     	}
+     	if(5*B==10*A){
+     	    System.out.println("any");
+     	}
+		}
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Good Program
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner bit = new Scanner(System.in);
+		int T = bit.nextInt();
+		while(T-->0){
+		 int N = bit.nextInt();
+		 if(N%4==0){
+		     System.out.println("Good");
+		     
+		 }
+		 else{
+		     System.out.println("Not good");
+		 }
+		    
+		}
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Qualify the round
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+	     Scanner points= new Scanner(System.in);
+	     int T = points.nextInt();
+	     while(T-->0){
+	    int X = points.nextInt();
+	    int A = points.nextInt(); 
+        int B = points.nextInt();
+        
+        if(A+2*B>=X){
+            System.out.println("qualify");
+        }
+        else{
+            System.out.println("notqualify");
+        }
+	         
+	     }
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Elections in Chefland
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner vote = new Scanner(System.in);
+	     int T = vote.nextInt();
+	     while(T-->0){
+	    int N= vote.nextInt();
+	    int X = vote.nextInt();
+	    
+	    int count = 0;
+            for (int i = 0; i < N; i++) {
+                int age = vote.nextInt();
+                if (age >= X) {
+                    count++;
+                }
+            }
+            System.out.println(count);
+	    
+	    
+	     }	
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Minimum Cars required
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner car = new Scanner(System.in);
+	     int T = car.nextInt();
+	     while(T-->0){
+	     int n = car.nextInt();
+	     int ans = 0;
+		    if(n < 4 && n > 0){
+		     ans = 1;   
+		    }else if(n %4 == 0){
+		        ans = n/4;
+		    }else{
+		        ans = n/4 + 1;
+		    }
+		    System.out.println(ans);
+	        
+	     }
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Test Score
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner marks= new Scanner(System.in);
+		int T = marks.nextInt();
+		while(T-->0){
+		int N = marks.nextInt();
+        int X = marks.nextInt();
+        int Y = marks.nextInt();
+        
+        if(Y%X==0){
+            System.out.println("yes");
+        }
+        else{
+            System.out.println("no");
+        }
+	    
+		}
+
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Jenga Night
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		for(int i=0;i<t;i++){
+		    int n=sc.nextInt();
+		    int x=sc.nextInt();
+		    if(n<=x && x%n==0){
+		        System.out.println("YES");
+		    }else
+		    System.out.println("NO");
+		}
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Bus Seat Numbering
+
+  /* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    
+		Scanner obj=new Scanner (System.in);
+		int T=obj.nextInt();
+		for (int i=0;i<T;i++){
+		    int n=obj.nextInt();
+		    if (n>0 && n<=10){
+		        System.out.println("Lower Double");
+		    }
+		     else if (n>10 && n<=15){
+		        System.out.println("Lower Single");
+		    }
+		    else if (n>15 && n<=25){
+		        System.out.println("Upper Double");
+		    }
+		    else if (n>25 && n<=30){
+		        System.out.println("Upper Single");
+		    }
+		}
+	}
+}
