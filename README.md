@@ -1,4 +1,4 @@
-![image](https://github.com/prab18hat/500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS/assets/125785780/86a06739-4f6a-40bb-aa9a-bf11648143b4)# 500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS
+ 500-to-1000-difficulty-rating-CODECHEF-SOLUTIONS
 Here all the CodeChef Solutions are listed under 500 to 1000 difficulty rating.
 <-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   Problem---> Greater Average
@@ -943,3 +943,35 @@ class Codechef
 		}
 	}
 }
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Discus Throw
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		while(T-->0){
+		 int a = sc.nextInt();   // score a 
+		 int b = sc.nextInt();  // score b 
+		 int c = sc.nextInt();  // score c
+		  
+		   if(a>b && a>=c){
+		        System.out.println(a);
+		    }else if(b>=a && b>=c){
+		        System.out.println(b);
+		    }else {
+		        System.out.println(c);
+		    }
+		}
+
+	}
+}
+
