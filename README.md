@@ -975,3 +975,53 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Maximise the Tastiness
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0){
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    int c=sc.nextInt();
+		    int d=sc.nextInt();
+		    int sum=Math.max(a,b)+Math.max(c,d);
+		    System.out.println(sum);
+		
+		
+		
+		
+
+	}
+}
+}
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Watching Movies at 2x
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner movie = new Scanner(System.in);
+		int X = movie.nextInt();
+		int Y = movie.nextInt();
+		int Total = Y/2+(X-Y);
+		System.out.println(Total);
+		
+
+	}
+}
