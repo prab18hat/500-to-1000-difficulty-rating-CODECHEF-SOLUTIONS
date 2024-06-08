@@ -1025,3 +1025,30 @@ class Codechef
 
 	}
 }
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Police and Thief
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner chef = new Scanner(System.in);
+		int T = chef.nextInt();
+		while(T-->0){
+		    int X = chef.nextInt(); //LOACTION OF POLICE 
+		    int Y = chef.nextInt();  // LOCATION OF THIEF
+		    
+		    int Time = Math.abs(X-Y);
+		    System.out.println(Time);
+		}
+
+	}
+}
+
