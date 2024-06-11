@@ -1102,4 +1102,40 @@ class Codechef
 		}
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Finding Shoes
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner shoes = new Scanner(System.in);
+		int T = shoes.nextInt();
+		while(T-->0){
+		    
+		int N = shoes.nextInt();     // number of chef's frends
+		int M = shoes.nextInt();     // number of left shoes Chef has
+		
+		
+	   if(M==0){
+	       System.out.println(N*2);
+	   }
+	   else if(N<M){
+	        System.out.println(N);
+	   }
+	   else{
+	        System.out.println(N+N-M);
+	   }
+		    
+		    
+		}
+		
+	}
+}
+
 
