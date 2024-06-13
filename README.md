@@ -1163,5 +1163,33 @@ class Codechef
 
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Mario and Transformation
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner eat = new Scanner (System.in);
+		int T = eat.nextInt();
+		while(T-->0){
+		    int X = eat.nextInt();
+		   
+		     if(X%3==0){
+		        System.out.println("NORMAL");
+		    }else if(X%3==1){
+		        System.out.println("Huge");
+		    }else{
+		        System.out.println("Small");
+		}
+
+	}
+}
+}
 
 
