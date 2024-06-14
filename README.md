@@ -1192,4 +1192,29 @@ class Codechef
 }
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Mario and Bullet
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner shoot = new Scanner (System.in);
+		int T = shoot.nextInt();
+		while(T-->0){
+		    int X = shoot.nextInt();
+            int Y = shoot.nextInt();
+            int Z = shoot.nextInt();
+            int res = Y/X;
+            int time = Z-res;
+            System.out.println(Math.max(0,time));
+		}
+	}
+}
+
 
