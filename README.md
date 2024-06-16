@@ -1219,7 +1219,7 @@ class Codechef
 
 <-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   Problem---> Chess Ratings
-  /* package codechef; // don't place package name! */
+  
 
 import java.util.*;
 import java.lang.*;
@@ -1254,5 +1254,44 @@ class Codechef
 		}
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Complementary Strand in a DNA
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for (int i  =0;i<t;i++){
+		    int n = sc.nextInt();
+		    String s = sc.next();
+		    String p = "";
+		    for (int j = 0;j<n;j++){
+		        if (s.charAt(j)=='A'){
+		            p += 'T';
+		        }
+		        else if (s.charAt(j)=='T'){
+		            p += 'A';
+		        }
+		        else if (s.charAt(j)=='G'){
+		            p += 'C';
+		        }
+		        else{
+		            p += 'G';
+		        }
+		    }
+		    System.out.println(p);
+		}
+	}
+}
+
 
 
