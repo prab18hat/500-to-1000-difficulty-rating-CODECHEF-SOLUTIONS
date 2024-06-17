@@ -1293,5 +1293,32 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chef and Water Bottles
 
+  import java.util.*;
+public class Main{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int t,n,x,k;
+t=sc.nextInt();
+while(t!=0)
+{
+    n=sc.nextInt();
+    x=sc.nextInt();
+    k=sc.nextInt();
+    int z=0;
+    if(x>k)
+    System.out.println("0");
+    else{
+        z=k/x;
+        if(z>n)
+        System.out.println(n);
+        else
+        System.out.println(z);
+    }
+    t--;
+}
+}
+}
 
