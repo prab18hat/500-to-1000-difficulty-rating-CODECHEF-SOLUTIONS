@@ -1322,3 +1322,91 @@ while(t!=0)
 }
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Candy Distribution 
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+	
+		Scanner  candy = new Scanner(System.in);
+		int T = candy.nextInt();
+		while(T-->0){
+		  int N = candy.nextInt();   // number candies 
+		  int M = candy.nextInt();   // number of friends
+		  if(N%M==0 && (N/M)%2==0){
+		      System.out.println("yes");
+		  }
+		  else{
+		      System.out.println("no");
+		  }
+	
+		  }
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Finding Square Roots
+
+    import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+	 Scanner  sq = new Scanner(System.in);
+		int T = sq.nextInt();
+		while(T-->0){
+		 int  N = sq.nextInt();
+		 System.out.println((int)Math.sqrt(N));
+		    
+}
+	}
+}
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> The Last Levels
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner in = new Scanner(System.in);
+		int t = in.nextInt();
+		
+		while(t-- > 0){
+		    int x = in.nextInt();
+		    int y = in.nextInt();
+		    int z = in.nextInt();
+		    
+		    if(x % 3 != 0){
+		        int Br = x / 3;
+		        System.out.println(x*y + (Br*z));
+		        
+		    }else if(x % 3 == 0){
+		        int Br = (x / 3) - 1;
+		        System.out.println(x*y + (Br*z));
+		        
+		    }else{
+		        System.out.println(x*y);
+		        
+		    }
+		}
+	}
+}
+
+
