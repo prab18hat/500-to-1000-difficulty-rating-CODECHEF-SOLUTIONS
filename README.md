@@ -1408,5 +1408,32 @@ class Codechef
 		}
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Blackjack
 
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			// your code goes here
+		Scanner win  = new Scanner(System.in);
+		int T = win.nextInt();
+		
+		while(T-- > 0){
+		    int A = win.nextInt();
+		    int B = win.nextInt();
+		    if(A+B>=11){
+		        System.out.println(21-(A+B));
+		    }
+		    else{
+		         System.out.println(-1);
+		    }
+}
+	}
+}
 
