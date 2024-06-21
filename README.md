@@ -1471,3 +1471,27 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> X Jumps
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner jump  = new Scanner(System.in);
+		int T = jump.nextInt();
+		while(T-- > 0){
+		    int X = jump.nextInt();  // number of stairs want to reach
+		    int Y = jump.nextInt();  // number of stairs he can climb in one
+		    
+		    int c = X/Y + X%Y;
+		    System.out.println(c);
+}
+	}
+}
+
