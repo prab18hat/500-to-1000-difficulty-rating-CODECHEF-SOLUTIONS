@@ -1494,4 +1494,26 @@ class Codechef
 }
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chessboard Distance
 
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner chess  = new Scanner(System.in);
+		int T = chess.nextInt();
+		while(T-- > 0){
+		    int X1 = chess.nextInt();
+            int Y1 = chess.nextInt();
+            int X2 = chess.nextInt();
+            int Y2 = chess.nextInt();
+           System.out.println(Math.max(Math.abs(X1-X2),Math.abs(Y1-Y2)));
+		}
+	}
+}
