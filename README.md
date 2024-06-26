@@ -1572,3 +1572,40 @@ class Codechef
 		}
 	}
 }
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Water Mixing
+
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner bath = new Scanner(System.in);
+		int T = bath.nextInt();
+		while(T-->0){
+		 	int A = bath.nextInt();  // initial temp of bathtub
+			int B = bath.nextInt(); // desired temp of bathtub
+		 	int X = bath.nextInt();  // hot water 
+		 	int Y = bath.nextInt();  // cold water
+		 	
+		  if(A<=B && (B-A)<=X)
+	        {
+	            System.out.println("yes");
+	            
+	        }
+	        else if(A>=B && (A-B)<=Y)
+	        {
+	            System.out.println("yes");
+	        }
+	        else{
+	            System.out.println("no");
+	        }
+	        
+	    }
+	}
+}
