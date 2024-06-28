@@ -1641,5 +1641,36 @@ class Codechef
 
 	}
 }
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Chef and his Apps
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner app = new Scanner(System.in);
+		int T = app.nextInt();
+		while(T-->0){
+		 	int S = app.nextInt();  // Total Storage of his  phone
+		 	int X = app.nextInt();  // first app occupy space
+		 	int Y = app.nextInt();  // occupied space by 2nd app
+		 	int Z = app.nextInt();  // memory req. for 3rd app
+		    int A = S-(X+Y);
+		    if(A>=Z){
+		      System.out.println("0");
+		    }
+		    else if(Z<=X+A || Z<=Y+A){
+		         System.out.println("1");
+		    }
+		    else{
+		         System.out.println("2");
+		    }
+}
+	}
+}
 
 
