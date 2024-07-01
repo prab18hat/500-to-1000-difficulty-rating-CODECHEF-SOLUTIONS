@@ -1702,5 +1702,30 @@ class Codechef
 	}
 }
 
+<-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  Problem---> Minimum number of coins
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner coin = new Scanner(System.in);
+		int T = coin.nextInt();
+		while(T-->0)
+		{
+		    int X = coin.nextInt();
+		    if(X%5==0 || X%10==0){
+		        System.out.println( X/10+(X%10)/5);
+		    }
+		    else{
+		        System.out.println("-1");
+		    }
+}
+	}
+}
 
 
