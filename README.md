@@ -1701,7 +1701,6 @@ class Codechef
 		}
 	}
 }
-
 <-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   Problem---> Minimum number of coins
   import java.util.*;
@@ -1728,4 +1727,31 @@ class Codechef
 	}
 }
 
+<--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner air = new Scanner(System.in);
+		int T = air.nextInt();
+		while(T-->0)
+		{
+		   int X = air.nextInt();
+		   int N = air.nextInt();
+		   
+		   int planereq = (N+99) / 100;
+		   int addplane = planereq-X;
+		   System.out.println(Math.max(0, addplane));
+		}
+		air.close();
+		
+
+	}
+}
 
